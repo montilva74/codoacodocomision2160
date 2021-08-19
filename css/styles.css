@@ -1,0 +1,32 @@
+body{
+    background-color: bisque;
+}
+h1{
+    background-color: black;
+    color: white;
+}
+
+li{
+    display: inline;
+    background-color: blue;
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 4px 5px 3px black;
+    margin: 10px 10px;
+}
+
+#padre, ul{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hija{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
